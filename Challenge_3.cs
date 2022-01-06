@@ -12,11 +12,12 @@ namespace RedBadgeIntroChallenges
         {
             Console.Clear();
 
-            // Get user input
-            Console.WriteLine("Enter any string for challenge 3: ");
-            string input = Console.ReadLine();
+            //// Get user input
+            //Console.WriteLine("Enter any string for challenge 3: ");
+            //string input = Console.ReadLine();
+            string input = "Alfa Beta gamma";
 
-            // Split string by spaces
+            //// Split string by spaces
             string[] inputs = input.Trim().Split(' ');
 
             // Create an output string, edit strings before adding
@@ -42,7 +43,7 @@ namespace RedBadgeIntroChallenges
             output = output.Trim();
 
             // Print output
-            Console.WriteLine("\nFormatted output: ");
+            Console.WriteLine("Formatted output: ");
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(output);
             Console.ReadLine();
