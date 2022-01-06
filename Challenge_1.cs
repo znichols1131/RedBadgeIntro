@@ -6,23 +6,17 @@ using System.Threading.Tasks;
 
 namespace RedBadgeIntroChallenges
 {
-    public class Challenge1
+    public class Challenge_1
     {
-        private readonly List<string> _input;
-
-        public Challenge1(List<string> input)
+        public void Run(List<string> input)
         {
-            _input = input;
-        }
-        public List<string> Solve()
-        {
-            List<string> result = _input
+            List<string> result = input
                 .GroupBy(x => x)
                 .Where(x => x.Count() == 1)
                 .SelectMany(x => x)
                 .ToList();
 
-            return result;
+            Console.WriteLine(result);
         }
     }
 }
