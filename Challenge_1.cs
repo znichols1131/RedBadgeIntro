@@ -8,7 +8,7 @@ namespace RedBadgeIntroChallenges
 {
     public class Challenge_1
     {
-        public void Run_Zach()
+        public void Run()
         {
             // Get list of strings
             List<string> inputs = new List<string>() { "abc", "xyz", "klm", "xyz", "abc", "abc", "rst" };
@@ -23,7 +23,7 @@ namespace RedBadgeIntroChallenges
                             .ToList();
 
             // Output
-            Console.Write("Inputs: ");
+            Console.WriteLine("Inputs: ");
             Console.ForegroundColor = ConsoleColor.Gray;
             foreach(string input in inputs)
             {

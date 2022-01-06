@@ -12,7 +12,7 @@ namespace RedBadgeIntroChallenges
         {
             // Challenge 1
             Challenge_1 challengeOne = new Challenge_1();
-            challengeOne.Run_Zach();
+            challengeOne.Run();
 
             // Challenge 2
             Challenge_2 challengeTwo = new Challenge_2();
