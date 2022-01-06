@@ -10,7 +10,7 @@ namespace RedBadgeIntroChallenges
     {
         public void Run()
         {
-            int[] setOne = { 1, 2, 3};
+            int[] setOne = { 1, 2, 3 };
             int[] setTwo = { 4, 5, 6 };
 
             int[] setThree = { 7, -9, 3, -5 };
@@ -36,3 +36,4 @@ namespace RedBadgeIntroChallenges
             Console.ReadLine();
         }
     }
+}
