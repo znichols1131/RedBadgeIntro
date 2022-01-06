@@ -20,11 +20,11 @@ namespace RedBadgeIntroChallenges
 
             // Challenge 3
             Challenge_3 challengeThree = new Challenge_3();
-            challengeThree.Run();
+            //challengeThree.Run();
 
             // Challenge 4
             Challenge_4 challengeFour = new Challenge_4();
-            //challengeFour.Run();
+            challengeFour.Run();
 
         }
     }
